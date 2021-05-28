@@ -1,13 +1,16 @@
 
 GET http://localhost:3000/api/tasks
 ###
+
+GET http://localhost:3000/api/tasks?size=2
+###
 POST http://localhost:3000/api/tasks
 Content-Type: application/json
 
 {
-    "title":"Angular",
-    "descripcion":"trabajo en angular",
-    "done":"true"
+    "title":"Esta es una dinoprueba",
+    "descripcion":"Hola dinomama",
+    "done":true
 }
 
 ####
