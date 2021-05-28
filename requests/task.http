@@ -1,0 +1,28 @@
+
+GET http://localhost:3000/api/tasks
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title":"Angular",
+    "descripcion":"trabajo en angular",
+    "done":"true"
+}
+
+####
+GET http://localhost:3000/api/tasks/60adb844b6681911c0bfdccd
+
+###
+DELETE http://localhost:3000/api/tasks/60adbe9adfa194275cd37ef4
+
+####
+GET http://localhost:3000/api/tasks/done
+
+###
+PUT http://localhost:3000/api/tasks/60adbe7edfa194275cd37ef3
+Content-Type: application/json
+
+{
+    "title":"Crear un servicio Web"
+}
